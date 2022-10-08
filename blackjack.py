@@ -41,7 +41,7 @@ class Deck:
         single_card = self.deck.pop()
         return single_card
 
-#creating a hand#
+#creating a hand class#
 
 class Hand:
     def __init__(self):
