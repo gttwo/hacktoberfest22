@@ -79,7 +79,7 @@ class Chips:
 def take_bet(chips):
     while True:
         try:
-            chips.bet = int(input('How many chips would you liek to bet?  '))
+            chips.bet = int(input('How many chips would you like to bet?  '))
         except ValueError:
             print("Sorry, a bet must be an integer!")
         else:
