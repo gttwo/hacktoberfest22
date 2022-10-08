@@ -7,7 +7,7 @@ values = {'Two':2, 'Three':3, 'Four':4, 'Five':5, 'Six':6, 'Seven':7, 'Eight':8,
 
 playing = True
 
-#creating card class#
+#creating car class#
 
 class Card:
     
@@ -41,7 +41,7 @@ class Deck:
         single_card = self.deck.pop()
         return single_card
 
-#creating a hand#
+#creating a hand class#
 
 class Hand:
     def __init__(self):
